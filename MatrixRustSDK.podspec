@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
     spec.source       = { :http => 'https://github.com/matrix-org/matrix-rust-components-swift/releases/download/v1.1.31/MatrixSDKFFI.xcframework.zip' }
     spec.license       = { :type => 'Version 2.0' }
     spec.vendored_frameworks = 'MatrixSDKFFI.xcframework' # Your XCFramework
+    spec.source_files          = "Sources/**/*.{swift}"
 end
