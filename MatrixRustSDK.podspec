@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
     s.swift_versions = ['5.0']
 
-    s.source                = { :http => "https://github.com/matrix-org/matrix-rust-components-swift/releases/download/v1.1.31/MatrixSDKFFI.xcframework.zip'" }
+    s.source                = { :http => "https://github.com/tobiassteenweg/matrix-swift/releases/download/v1.1.31/MatrixSDKFFI.zip" }
     s.vendored_frameworks   = "MatrixSDKFFI.xcframework"
     s.source_files          = "Sources/**/*.{swift}"
 
