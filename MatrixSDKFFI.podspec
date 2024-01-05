@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name         = "MatrixSDKFFI"
+    spec.name         = "MatrixRustSDK"
     spec.version      = "1.1.31"
     spec.summary      = "Matrix SDK FFI"
     spec.homepage     = "https://github.com/matrix-org/matrix-rust-components-swift"
