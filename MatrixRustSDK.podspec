@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
     s.source                = { :http => "https://github.com/tobiassteenweg/matrix-swift/releases/download/v1.1.31/MatrixSDKFFI.zip" }
     s.vendored_frameworks   = "MatrixSDKFFI.xcframework"
     s.source_files          = "Sources/**/*.{swift}"
-
+    s.ios.deployment_target = "15.0"
 end
